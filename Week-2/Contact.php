@@ -11,6 +11,24 @@
     
 <h1>Contact</h1>
 
+<form action="">
+   
+    <label for="Name">Naam</label>
+    <input type="text" name="Name" id="Name">
+
+    <label for="E-mail">E-mail</label>
+    <input type=email" name="e-mail" id="email">
+
+    <label for="Message">Bericht</label>
+    <input type="text" name="Message" id="Message">
+
+    <button> Verstuur </button>
+
+
+</form>
+
+
 <?php include 'footer.php'; ?>
+
 </body>
 </html>

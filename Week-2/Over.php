@@ -13,5 +13,6 @@
 <h1>About</h1>
 
 <?php include 'footer.php'; ?>
+
 </body>
 </html>
