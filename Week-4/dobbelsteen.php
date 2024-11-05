@@ -9,6 +9,6 @@ if($getal > 3) {
 } elseif($getal == 6) {
     echo "Je krijgt een speciale prijs!";
 } else {
-    echo " Helaas je hebt verloren."
+    echo " Helaas je hebt verloren.";
 }
 ?>
