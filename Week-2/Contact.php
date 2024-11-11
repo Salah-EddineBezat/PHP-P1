@@ -13,18 +13,17 @@
 
 <form action="">
    
-    <label for="Name">Naam</label>
-    <input type="text" name="Name" id="Name">
+    <label for="name">Naam</label>
+    <input type="text" name="name" id="name">
 
-    <label for="E-mail">E-mail</label>
-    <input type=email" name="e-mail" id="email">
+    <label for="email">E-mail</label>
+    <input type="email" name="email" id="email">
 
-    <label for="Message">Bericht</label>
-    <input type="text" name="Message" id="Message">
+    <label for="message">Bericht</label>
+    <input type="text" name="message" id="message">
 
-    <button> Verstuur </button>
-
-
+    <button type="submit" name="submit"> Verstuur </button>
+    
 </form>
 
 
