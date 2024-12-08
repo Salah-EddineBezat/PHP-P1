@@ -31,6 +31,14 @@
     } else {
         echo "Deze pagina heb je al " . $_SESSION['visit_count'] . " keer bezocht.<br>";
     }
+
+    if (isset($_COOKIE["visit_count"])) {
+        echo "In totaal heb je de pagina: " . $_COOKIE["visit_count"] . "bekeken. ";
+    }
+
+    setcookie("visit_count", $_SESSION['visit_count'], time() + 3600);
+
+    
     ?>
 
 </body>
