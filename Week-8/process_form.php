@@ -7,7 +7,7 @@ if (isset($_SESSION["username"])) {
     $username = 'Gast';
 }
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if (isset($_POST['submit'])) {
     $errors = [];
 
     // Gebruikersnaam validatie 
@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Session controle username
     if (empty($errors)) {
         $_SESSION['username'] = $username;
-        header('Location: welcome.php'); 
+        header('Location: welcome.php');
         exit();
     } else {
         foreach ($errors as $error) {

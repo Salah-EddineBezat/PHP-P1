@@ -19,7 +19,7 @@
 
     <!-- Geslacht -->
     <Label for="Gender">Geslacht:</Label>
-    <input type="radio" name="gender" value="Man" id="male" required>
+    <input type="radio" name="gender" value="Man" id="male" required checked>
     <label for="male">Man</label>
     <input type="radio" name="gender" value="Vrouw" id="female">
     <label for="female">Vrouw</label>
